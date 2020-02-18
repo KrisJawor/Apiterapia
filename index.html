@@ -1,0 +1,172 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Apiterapia</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+
+  </head>
+  <body data-spy="scroll" data-target="#myNav">
+      <!--add video to background-->
+      <video autoplay loop muted id="bgVideo">
+        <source src="images/BeeFarm.mp4" type="video/mp4"> 
+      </video>
+      <!--create navigation with scrollspy-->
+      <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="myNav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand">Apiterapia lekiem na Twoje dolegliwości</a>
+                <button type="button" class="navbar-toggle" data-target="#navbarCollapsible" data-toggle="collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbarCollapsible">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home">Apiterapia</a></li>
+                    <li><a href="#about">Działanie</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    <!--Create title segment of our site-->
+      <div class="jumbotron" id="home">
+        <div class="container">
+            <h1>Apiterapia lekiem na Twoje dolegliwości</h1>
+            <h2>Dowiedz się więcej o leczniczych właściwościach produktów pszczelich</h2>
+            <p><a class="btn" href="https://pl.wikipedia.org/wiki/Apiterapia">Więcej</a></p>
+        </div>
+      </div>
+    <!--Create about part of page-->
+      <div id="about">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                    <img src="images/apilogo.png" class="apiInfo">
+                    <h2>Historia apiterapi</h2>
+                    <p>Gdzie znajdują się źródła apiterapi, jak daleko sięgają korzenie pszczołolecznictwa</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/miodek.png" class="apiInfo">
+                    <h2>Wykorzystywane produkty</h2>
+                    <p>Jak można wykorzystać miód, propolis, pierzge, mleczko pszczele a w jaki sposób wykorzystać jad pszczeli?</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/ul.png" class="apiInfo">
+                    <h2>Nowa metoda - ulo-terapia</h2>
+                    <p>Jak oddziałuje na nas powietrze z ula czy energia wytwarzana przez wielką ilość pszczół wpływa pozytywnie na człowieka?</p>
+                </div>
+              </div>          
+          </div>
+      </div>
+    <!--create gallery carousel-->
+      <div id="gallery" class="container-fluid">
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/akacja.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód akacjowy</h2>
+                        <p>Miód akacjowy działa na człowieka uspokajająco i wzmacniająco. Przydatny jest także w zaburzeniach dotyczących przewodu pokarmowego nerek i układu moczowego. Pomaga także przy kuracji podczas przeziębienia</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/lipowy.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód lipowy</h2>
+                        <p>Jeżeli często się stresujesz- miód lipowy jest właśnie dla Ciebie. Działa antystresowo. Miód lipowy ma dobroczynny wpływ na układ nerwowy, a także na górne i dolne drogi oddechowe, serce oraz układ krążenia.</p>
+                    </div>
+                </div>
+                 <div class="item">
+                    <img src="images/spadzi.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód spadź iglasta</h2>
+                        <p>Miód spadziowy ze spadzi iglastej najlepszy jest na dolne drogi oddechowe, przewód pokarmowy, zaparcia biegunki choroby serca i naczyń oraz na nerwice.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/spadzl.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód spadź liściasta</h2>
+                        <p>Miód spadziowy ze spadzi liściastej najlepszy jest na nerki i drogi moczowe oraz na wątrobę i drogi żółciowe.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/wielokwiat.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód wielokwiatowy</h2>
+                        <p>Jeżeli czujesz się wyczerpany psychicznie lub fizycznie- ten miód jest dla Ciebie. Jest dobry także na stany alergiczne dróg oddechowych, na serce i naczynia krwionośne.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/rzepak.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód rzepakowy</h2>
+                        <p>Miód rzepakowy najlepszy jest na wątrobę, drogi żółciowe, serce, naczynia wieńcowe. Jest przydatny podczas leczenia stanów zapalnych dróg oddechowych. Szybkie przyłożenie miodu na oparzoną skórę zabezpiecza ją przed tworzeniem się pęcherzy i rozwojem zakażenia</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/gryczany.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód gryczany</h2>
+                        <p>Miód gryczany działa odtruwająco, a poza tym jest bardzo dobry na układ krążenia, wątrobę, miażdżycę, niedokrwistość wynikającą z niedoboru żelaza.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/malina.jpg">
+                    <div class="carousel-caption">
+                        <h2>Miód malinowy</h2>
+                        <p>Działa napotnie, rozgrzewająco, antyseptycznie i przeciwgorączkowo. Stosuje się go w przeziębieniach, schorzeniach górnych dróg oddechowych, nieżycie żołądka, jelit, niedokrwistości oraz prewencyjnie przy miażdżycy. Wzmacnia układ odpornościowy i wspomaga pracę serca.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+      </div>
+    <!--Create footer-->
+      <div class="footer">
+         <div class="container">
+            <p>&copy; Stworzone z miłością przez KJ <br>Dziękuję Kate, pasja1000, Jeno Szabó, brokerx, Hans Braxmeier, Johannes Plenio, congerdesign, moritz320, Capri23auto, Niceda Atencia z Pixaby.com za piękne zdjęcia &#128512</p> 
+        </div>
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function(){
+            $('.carousel').carousel({
+                interval: 10000
+            });
+        })  
+    </script>
+  </body>
+</html>
